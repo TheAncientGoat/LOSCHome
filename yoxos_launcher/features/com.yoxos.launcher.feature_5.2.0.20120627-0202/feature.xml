@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yoxos.launcher.feature"
+      label="Yoxos Launcher"
+      version="5.2.0.20120627-0202"
+      provider-name="EclipseSource">
+
+   <description url="http://www.eclipsesource.com/yoxos5">
+      Change log for the Yoxos 5 Launcher
+
+==============================================
+Changes for 5.5.0 (Feb 29th 2012)
+* Team support
+* p2 Install Manager is now available
+* New save workflow
+* Accounts never expire
+==============================================
+   </description>
+
+   <copyright url="http://www.eclipsesource.com">
+      Copyright © 2010 by EclipseSource
+   </copyright>
+
+   <license url="Copyright © 2010 by EclipseSource">
+      Copyright © 2010 by EclipseSource
+   </license>
+
+   <plugin
+         id="com.yoxos.client.common"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.jdom"
+         download-size="0"
+         install-size="0"
+         version="4.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.launcher"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.lib"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.model"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.model.persistence"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.provisioning.common"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.uilib"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.core"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.core.install.p2"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.launching"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylyn"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylyn.bugzilla"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.preferences"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.team"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.ui.base"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.ui.rcp"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.metadata"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="org.jcouchdb"
+         download-size="0"
+         install-size="0"
+         version="0.10.0.20120627-0202"/>
+
+   <plugin
+         id="com.yoxos.yim.rcp.splitpackagefixer"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.20100820-0001"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.lib.net"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.ui.launcher"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.target"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.team.git"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.checkstyle.37"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylynbuilds"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylynbuilds.hudson"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.sonar"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylyn.jira"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.20120627-0202"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="0"
+         install-size="0"
+         version="4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpcore"
+         download-size="0"
+         install-size="0"
+         version="4.1.3"
+         unpack="false"/>
+
+</feature>

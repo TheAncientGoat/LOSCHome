@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.io,org.jcouchdb.db; uses:="org.jcou
+ chdb.exception,  org.jcouchdb.document,  org.svenson,  org.slf4j,  or
+ g.apache.http.auth,  org.apache.http",org.jcouchdb.document;uses:="or
+ g.svenson,org.svenson.util",org.jcouchdb.exception;uses:="org.jcouchd
+ b.db",org.jcouchdb.util; uses:="org.jcouchdb.exception,  org.apache.c
+ ommons.io.filefilter,  org.jcouchdb.db,  org.slf4j,  org.apache.http"
+ ,org.svenson; uses:="org.svenson.tokenize,  org.svenson.converter,  o
+ rg.svenson.matcher,  org.slf4j",org.svenson.converter,org.svenson.tok
+ enize
+Bundle-ClassPath: lib/commons-io-1.4.jar,lib/jcl-over-slf4j-1.5.6.jar,
+ lib/log4j-1.2.14.jar,lib/slf4j-api-1.5.6.jar,lib/slf4j-log4j12-1.5.6.
+ jar,lib/svenson-1.3.7.jar,lib/commons-beanutils-1.8.3.jar,jcouchdb-1.
+ 0.100-2.jar
+Bundle-Version: 0.10.0.20120627-0202
+Bundle-Name: JCouchdb
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.http;version="4.0.0",org.apache.http.client
+ ;version="4.0.0",org.apache.http.client.methods;version="4.0.0",org.a
+ pache.http.client.params;version="4.0.0",org.apache.http.conn;version
+ ="4.0.0",org.apache.http.conn.params;version="4.0.0",org.apache.http.
+ conn.scheme;version="4.0.0",org.apache.http.entity;version="4.0.0",or
+ g.apache.http.impl.client;version="4.0.0",org.apache.http.impl.conn.t
+ sccm;version="4.0.0",org.apache.http.params;version="4.0.0",org.apach
+ e.http.protocol;version="4.0.0"
+Bundle-SymbolicName: org.jcouchdb
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

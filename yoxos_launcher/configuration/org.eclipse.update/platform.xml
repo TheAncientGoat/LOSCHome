@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1340755574318">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="com.yoxos.launcher.dependencies.feature" url="features/com.yoxos.launcher.dependencies.feature_5.0.0.20120627-0202/" version="5.0.0.20120627-0202">
+		</feature>
+		<feature id="com.yoxos.launcher.feature" url="features/com.yoxos.launcher.feature_5.2.0.20120627-0202/" version="5.2.0.20120627-0202">
+		</feature>
+	</site>
+</config>
