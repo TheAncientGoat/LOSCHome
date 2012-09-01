@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=.git
+Type=Link
+URL[$e]=file://$HOME/.git
+X-KDE-LastOpenedWith=

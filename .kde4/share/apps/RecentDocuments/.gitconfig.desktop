@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=.gitconfig
+Type=Link
+URL[$e]=file://$HOME/.gitconfig
+X-KDE-LastOpenedWith=

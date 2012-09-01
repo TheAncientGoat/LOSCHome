@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <!-- Single Source -->
+   <extension
+         point="com.yoxos.yim.ui.base.singlesource">
+      <singlesource
+            class="com.yoxos.yim.ui.rcp.internal.services.RCPSingleSource">
+      </singlesource>
+   </extension>
+   
+   <!-- Perspective Extensions -->
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension targetID="org.eclipse.ui.resourcePerspective">
+         <perspectiveShortcut id="com.yoxos.yim.ui.base.internal.perspective.YIMPerspective"/>
+      </perspectiveExtension>
+   </extension>
+ 
+   <!-- Preference Pages -->
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            id="com.yoxos.yim.ui.rcp.internal.preferences.YoxosPreferencePage"
+            class="com.yoxos.yim.ui.rcp.internal.preferences.YoxosPreferencePage"
+            name="%yoxosPreferencePage_name"/>
+   </extension>
+ 
+   <!-- Initializers -->
+   <extension point="com.yoxos.yim.ui.base.initializers">
+     <initializer
+           class="com.yoxos.yim.ui.rcp.internal.initializers.CheckForUpdates">
+     </initializer>
+     <initializer
+           class="com.yoxos.yim.ui.rcp.internal.initializers.PresenceInitializer">
+     </initializer>
+     <initializer
+           class="com.yoxos.yim.ui.rcp.internal.initializers.ProvisioningInitializer">
+     </initializer>
+     <initializer
+           class="com.yoxos.yim.ui.rcp.internal.initializers.SetupP2UI">
+     </initializer>
+    </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.yoxos.yim.ui.rcp.internal.initializers.RunInitializersOnStartup">
+      </startup>
+      <startup
+            class="com.yoxos.yim.ui.rcp.internal.notify.StartupNotifyDialog">
+      </startup>
+      <startup
+            class="com.yoxos.yim.ui.rcp.internal.initializers.SupressOldNotificationTrim">
+      </startup>
+      <startup
+            class="com.yoxos.yim.ui.rcp.internal.initializers.ProxyInitializerOnStartup">
+      </startup>
+   </extension>
+ 
+    <!-- View Actions -->
+    <extension
+            point="org.eclipse.ui.viewActions">
+         <viewContribution
+               id="com.yoxos.yim.ui.rcp.mediumExplorer"
+               targetID="com.yoxos.yim.ui.base.internal.views.medium.MediumExplorer">
+            <menu
+                  id="com.yoxos.yim.ui.rcp.mediumExplorer.separatorMenu"
+                  label="separator"
+                  path="additions">
+               <separator
+                     name="com.yoxos.yim.ui.rcp.mediumExplorer.separator">
+               </separator>
+            </menu>
+            <action
+                  class="com.yoxos.yim.ui.rcp.internal.actions.ShowUpdatesOnlyAction"
+                  icon="$nl$/icons/etool16/updatesonly.gif"
+                  id="com.yoxos.yim.ui.rcp.internal.actions.ShowUpdatesOnlyAction"
+                  label="%updatesOnlyAction_label"
+                  menubarPath="filters"
+                  style="toggle"
+                  toolbarPath="filters"
+                  tooltip="%updatesOnlyAction_tooltip">
+            </action>
+            <action
+                  class="com.yoxos.yim.ui.rcp.internal.actions.HideInstalledAction"
+                  icon="icons/etool16/hideinstalled.gif"
+                  id="com.yoxos.yim.ui.rcp.internal.actions.HideInstalledAction"
+                  label="%hideInstalled_label"
+                  menubarPath="filters"
+                  style="toggle"
+                  toolbarPath="filters"
+                  tooltip="%hideInstalled_tooltip">
+            </action>
+         </viewContribution>
+   </extension>
+   
+   <!-- Action Sets -->   
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.yoxos.yim.ui.rcp.menuHelpActionSet"
+            label="%menuHelpActionSet_label"
+            visible="true">
+         <action
+               class="com.yoxos.yim.ui.rcp.internal.actions.SwitchPerspective"
+               icon="$nl$/icons/elcl16/update_features.gif"
+               id="com.yoxos.yim.ui.rcp.internal.actions.SwitchPerspective"
+               label="%switchPerspective_label"
+               menubarPath="help/group.updates"
+               style="push"
+               tooltip="%switchPerspective_tooltip"/>
+      </actionSet>
+     
+   </extension>
+     
+  <!-- Welcome / Intro Page Contributions -->
+  <extension point="org.eclipse.ui.intro.configExtension">
+    <configExtension configId="org.eclipse.ui.intro.universalConfig" 
+                     content="$nl$/intro/overviewEx1.xml" /> 
+    <configExtension configId="org.eclipse.ui.intro.universalConfig" 
+                     content="$nl$/intro/whatsnewEx1.xml" /> 
+    <configExtension configId="org.eclipse.ui.intro.universalConfig" 
+                     content="$nl$/intro/tutorialsEx1.xml" /> 
+  </extension>
+
+  <!-- help system TOC -->
+   <extension point="org.eclipse.help.toc">
+      <toc file="toc.xml"
+           primary="true"/>
+   </extension>
+   
+   <!-- help contexts -->
+   <extension point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts_com.yoxos.yim.ui.rcp.xml"
+            plugin="com.yoxos.yim.ui.rcp"/>
+   </extension>
+
+   <!-- service factories contributions -->
+   <extension
+         point="com.yoxos.yim.core.serviceFactories">
+      <factory
+            factory="com.yoxos.yim.ui.rcp.internal.services.OperationManagerFactoryImpl"
+            interface="com.yoxos.yim.core.services.IOperationManager"/>
+      <factory
+            factory="com.yoxos.yim.ui.rcp.internal.services.ScheduleHeaderProvider"
+            interface="com.yoxos.yim.ui.base.internal.views.schedule.IScheduleHeaderProvider">
+      </factory>
+      <factory
+            factory="com.yoxos.yim.ui.rcp.internal.FileNameFromFileDialogProviderImpl"
+            interface="com.yoxos.yim.ui.base.internal.views.schedule.FileNameFromFileDialogProvider">
+      </factory>
+   </extension>
+   <extension
+         point="org.eclipse.ui.splashHandlers">
+      <splashHandler
+            class="com.yoxos.yim.ui.rcp.splash.SplashHandler"
+            id="com.yoxos.yim.ui.rcp.splash">
+      </splashHandler>
+      <splashHandlerProductBinding
+            productId="org.eclipse.platform.ide"
+            splashId="com.yoxos.yim.ui.rcp.splash">
+      </splashHandlerProductBinding>
+      <splashHandlerProductBinding
+            productId="com.yoxos.yim.ui.rcp.product"
+            splashId="com.yoxos.yim.ui.rcp.splash">
+      </splashHandlerProductBinding>
+   </extension>
+   
+
+   <extension
+         point="org.eclipse.ui.activities">
+      <activity
+            description="Enables the P2 update UI"
+            id="com.yoxos.yim.ui.rcp.enablep2ui"
+            name="P2 Update UI">
+      </activity>
+      <activityPatternBinding
+            activityId="com.yoxos.yim.ui.rcp.enablep2ui"
+            isEqualityPattern="false"
+            pattern=".*org\.eclipse\.equinox\.p2\.ui\.sdk.*">
+      </activityPatternBinding>
+      <category
+        description="Enables the P2 update UI. By default, Yoxos disables the P2 UI and manages the Eclipse installation with its own means. Users can re-enable the P2 UI but should be aware that any changes with Yoxos will override changes that are made with the P2 UI."
+        id="com.yoxos.yim.ui.rcp.category.enablep2ui"
+        name="P2 Update UI">
+      </category>
+      <categoryActivityBinding
+            activityId="com.yoxos.yim.ui.rcp.enablep2ui"
+            categoryId="com.yoxos.yim.ui.rcp.category.enablep2ui">
+      </categoryActivityBinding>
+      <defaultEnablement
+            id="com.yoxos.yim.ui.rcp.enablep2ui">
+      </defaultEnablement>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.activities">
+      <activity
+            description="Disables the 'restart button' from the Eclipse workbench"
+            id="com.yoxos.yim.ui.rcp.disableWorkbenchRestart"
+            name="Workbench Restart">
+      </activity>
+      <activityPatternBinding
+            activityId="com.yoxos.yim.ui.rcp.disableWorkbenchRestart"
+            isEqualityPattern="false"
+            pattern=".*org\.eclipse\.ui\.file\.restartWorkbench.*">
+      </activityPatternBinding>
+   </extension>   
+   <extension
+         point="org.eclipse.ui.commands">
+         <command
+               id="com.yoxos.yim.ui.rcp.restartwithlauncher"
+               categoryId="org.eclipse.ui.category.file"
+               defaultHandler="com.yoxos.yim.ui.rcp.internal.RestartHandler"
+               name="Restart">
+         </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+         <menuContribution
+               locationURI="menu:file?before=open.ext">
+            <command
+                  commandId="com.yoxos.yim.ui.rcp.restartwithlauncher"
+                  style="push">
+            </command>
+         </menuContribution>
+   </extension>
+</plugin>

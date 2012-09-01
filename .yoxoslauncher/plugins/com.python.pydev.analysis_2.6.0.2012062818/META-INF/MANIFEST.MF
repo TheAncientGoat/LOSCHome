@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bundle-Name: Analysis Plug-in
+Bundle-ClassPath: analysis.jar
+Bundle-Activator: com.python.pydev.analysis.AnalysisPlugin
+Bundle-Vendor: Aptana
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-SymbolicName: com.python.pydev.analysis; singleton:=true
+Export-Package: com.python.pydev.analysis,com.python.pydev.analysis.ac
+ tions,com.python.pydev.analysis.additionalinfo,com.python.pydev.analy
+ sis.additionalinfo.builders,com.python.pydev.analysis.additionalinfo.
+ dependencies,com.python.pydev.analysis.builder,com.python.pydev.analy
+ sis.ctrl_1,com.python.pydev.analysis.messages,com.python.pydev.analys
+ is.organizeimports,com.python.pydev.analysis.scopeanalysis,com.python
+ .pydev.analysis.tabnanny,com.python.pydev.analysis.ui,com.python.pyde
+ v.analysis.visitors
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="2.6.0.2012062818",com.pytho
+ n.pydev,org.junit;bundle-version="[3.8.0,3.9.9]";resolution:=optional
+ ,org.python.pydev.core,org.python.pydev.ast,org.python.pydev.parser,o
+ rg.eclipse.core.resources,org.eclipse.ui.editors,org.eclipse.ui.workb
+ ench.texteditor,org.eclipse.search,org.eclipse.ui.ide,org.python.pyde
+ v.jython,org.python.pydev.debug
+Bundle-Version: 2.6.0.2012062818
+Eclipse-LazyStart: true
+
+Name: LICENSE.TXT
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: plugin.xml
+SHA1-Digest: wKEuRRSvOhERJ7kGsrzQOdtLS7M=
+
+Name: icons/Copy of opentype.gif
+SHA1-Digest: C6QxIalu+c0nwvdQc/taH2lWlcY=
+
+Name: analysis.jar
+SHA1-Digest: kV1aoDRA/jmT986Ed9MZwEle3aM=
+
+Name: icons/opentype.gif
+SHA1-Digest: ZSW4hlqyBmi0q92Qri8S8yrpv+g=
+

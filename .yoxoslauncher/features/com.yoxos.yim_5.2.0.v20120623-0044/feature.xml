@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yoxos.yim"
+      label="%featureName"
+      version="5.2.0.v20120623-0044"
+      provider-name="%featureProvider"
+      image="yoxos.jpg">
+
+   <description url="http://www.yoxos.com">
+      YIM (Yoxos Install Manager) provides the tooling for managing
+your Yoxos profile inside Eclipse.
+==============================================
+Changes for 5.5 (Feb 29 2012)
+* Team Support
+* p2 Install Manager is now available
+* New save workflow
+* Accounts never expire
+==============================================
+Changes for 5.3.0 (June 22 2011)
+* Git provisioning
+* EPP Launching
+==============================================
+Changes for 5.2.0 (May 3 2011)
+* Target Provisioning
+* Dependency Analysis Improvements
+==============================================
+Changes for 5.0.1 (Jan 12, 2011)
+* MyPlaces now available
+* New repository release
+* Performance improvements
+==============================================
+   </description>
+
+   <copyright>
+      Copyright (c) 2004-2011 by Innoopract Informationssystem GmbH
+   </copyright>
+
+   <license url="license.html">
+      About This Content
+END USER LICENSE AGREEMENT - YOXOS INSTALL MANAGER
+PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THE SOFTWARE.
+REGARDLESS OF HOW YOU ACQUIRE THE SOFTWARE (ELECTRONICALLY, PRE-LOADED,
+ON MEDIA OR OTHERWISE), DOWNLOADING, INSTALLING OR USING THE
+SOFTWARE SHALL INDICATE YOUR ACCEPTANCE OF THE TERMS AND CONDITIONS
+CONTAINED IN THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS
+AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS,
+YOU MAY NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE.
+1.0 DEFINITIONS
+1.1) &quot;LICENSOR&quot; MEANS INNOOPRACT INFORMATIONSSYSTEME GMBH 1.2)
+&quot;USER&quot; MEANS USER WHO OBTAINED THE SOFTWARE 1.3) &quot;LICENSE&quot; SHALL
+MEAN THE RELEASE VERSION AS DESIGNATED ON THE DISTRIBUTED MEDIA.
+2.0 LICENSE
+THE LICENSE, INCLUDING ALL CONTENT, IS PROTECTED BY COPYRIGHT
+UNDER GERMAN LAWS AND INTERNATIONAL TREATIES. UNAUTHORIZED USE
+OF THE LICENSE MAY VIOLATE COPYRIGHT, TRADEMARK AND OTHER LAWS.
+LICENSOR GRANTS USER THE NON-EXCLUSIVE, NON-TRANSFERABLE RIGHT
+AND LICENSE TO PERMIT ONE END USER THE USE OF THE LICENSE ON
+COMPUTER WORKSTATIONS LOCATED AT HIS/HER NORMAL PLACES OF BUSINESS;
+SUBJECT TO THE TERMS AND CONDITIONS OF THIS SOFTWARE LICENSE
+AGREEMENT. UNDER THIS LICENSE USER MAY NOT A) USE, REPUBLISH,
+UPLOAD, POST OR TRANSMIT IN ANY WAY THE LICENSE OR ANY CONTENT
+EXCEPT AS EXPRESSLY AUTHORIZED PURSUANT TO THIS SOFTWARE LICENSE
+AGREEMENT. B) COPY, REPRODUCE, MODIFY OR CREATE DERIVATIVE WORKS
+FROM THE CONTENT EXCEPT AS EXPRESSLY AUTHORIZED PURSUANT TO THIS
+SOFTWARE LICENSE AGREEMENT. C) ATTEMPT TO DECOMPILE, DISASSEMBLE
+OR REVERSE ENGINEER ANY SOFTWARE CONTAINED WITHIN THE LICENSE.
+D) REMOVE ANY COPYRIGHT OR OTHER PROPRIETARY NOTATIONS FROM THE
+CONTENT. E) DISTRIBUTE, TRANSFER, SALE, LEASE, SUBLICENSE, ASSIGN
+OR OTHERWISE MAKE AVAILABLE, DIRECTLY OR INDIRECTLY, THE LICENSE
+OR ANY CONTENT, IN PART OR IN WHOLE, INCLUDING ANY SEARCH OUTPUT
+OR RESULTS, TO ANY OTHER PERSON. F) EXCEPT AS MAY BE SPECIFICALLY
+PROVIDED IN THIS SOFTWARE LICENSE AGREEMENT, PERMIT THE SOFTWARE
+TO BE ACCESSED THROUGH AN ELECTRONIC NETWORK BEYOND USER&apos;S NORMAL
+PLACES OF BUSINESS. G) TRANSFER THE CONTENT TO ANOTHER PERSON
+OR &apos;MIRROR&apos; THE CONTENT ON EXTERNAL SERVERS.
+3.0 NO WARRANTY
+THE PROGRAM IS PROVIDED ON AN &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING,
+WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT,
+MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. EACH USER
+IS SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF
+USING AND DISTRIBUTING THE PROGRAM AND ASSUMES ALL RISKS ASSOCIATED
+WITH ITS EXERCISE OF RIGHTS UNDER THIS AGREEMENT, INCLUDING BUT
+NOT LIMITED TO THE RISKS AND COSTS OF PROGRAM ERRORS, COMPLIANCE
+WITH APPLICABLE LAWS, DAMAGE TO OR LOSS OF DATA, PROGRAMS OR
+EQUIPMENT, AND UNAVAILABILITY OR INTERRUPTION OF OPERATIONS.
+4.0 NO LIABILITY
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER USER
+NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE
+OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGES.
+5.0 CONFIDENTIALITY &amp; INDEMNITY
+THE SOFTWARE CONTAINS TRADE SECRETS AND PROPRIETARY KNOW-HOW
+THAT BELONG TO THE LICENSOR AND IT IS BEING MADE AVAILABLE TO
+YOU IN STRICT CONFIDENCE. ANY USE OR DISCLOSURE OF THE SOFTWARE,
+OR OF ITS ALGORITHMS, PROTOCOLS OR INTERFACES, OTHER THAN IN
+STRICT ACCORDANCE WITH THIS LICENSE AGREEMENT MAY BE ACTIONABLE
+AS A VIOLATION OF LICENSOR TRADE SECRET RIGHTS. USER WILL INDEMNIFY
+LICENSOR AND HOLD THEM HARMLESS FROM AND AGAINST ANY AND ALL
+CLAIMS WHICH A THIRD PARTY MAY ASSERT AGAINST LICENSOR BY REASON
+OF OR AS A CONSEQUENCE OF USERS USE OF THE LICENSE.
+6.0 GENERAL PROVISIONS
+THIS SOFTWARE LICENSE AGREEMENT CONSTITUTE THE ENTIRE AGREEMENT
+BETWEEN THE PARTIES AND SUPERSEDE ALL PRIOR AGREEMENTS AND UNDERSTANDINGS,
+ORAL AND WRITTEN, EXPRESS OR IMPLIED, BY AND BETWEEN ANY OF THE
+PARTIES WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT.
+NO AMENDMENT OR MODIFICATION OF THIS SOFTWARE LICENSE AGREEMENT
+SHALL BE BINDING UNLESS IN WRITING AND SIGNED BY A DULY AUTHORIZED
+REPRESENTATIVE OF BOTH PARTIES. THIS SOFTWARE LICENSE AGREEMENT
+SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS
+OF GERMANY AND THE EU. ANY ACTIONS AT LAW OR IN EQUITY ARISING
+OUT OF OR IN RELATION TO THIS ENTERPRISE LICENSE AGREEMENT MAY
+BE FILED ONLY IN A GERMAN DISTRICT COURT OF KARLSRUHE. IF ANY
+ONE OR MORE OF THE PROVISIONS CONTAINED IN THIS SOFTWARE LICENSE
+AGREEMENT SHOULD BE INVALID, ILLEGAL OR UNENFORCEABLE IN ANY
+RESPECT IN ANY JURISDICTION, THE VALIDITY, LEGALITY AND ENFORCEABILITY
+OF SUCH PROVISION OR PROVISIONS SHALL NOT IN ANY WAY BE AFFECTED
+OR IMPAIRED AS A RESULT OF SUCH EVENT IN ANY OTHER JURISDICTION
+AND THE VALIDITY, LEGALITY AND ENFORCEABILITY OF THE REMAINING
+PROVISIONS CONTAINED IN THIS AGREEMENT SHALL NOT IN ANY WAY BE
+AFFECTED OR IMPAIRED AS A RESULT OF SUCH EVENT, UNLESS IN EITHER
+CASE AS A RESULT OF SUCH DETERMINATION THIS AGREEMENT WOULD FAIL
+IN ITS ESSENTIAL PURPOSE. SOFTWARE MAY CONTAIN SOURCE CODE THAT,
+UNLESS EXPRESSLY LICENSED FOR OTHER PURPOSES, IS PROVIDED SOLELY
+FOR REFERENCE PURPOSES PURSUANT TO THE TERMS OF THIS AGREEMENT.
+SOURCE CODE MAY NOT BE REDISTRIBUTED UNLESS EXPRESSLY PROVIDED
+FOR IN THIS AGREEMENT.
+7.0 THIRD PARTY CODE
+ADDITIONAL COPYRIGHT NOTICES AND LICENSE TERMS APPLICABLE TO
+PORTIONS OF THE SOFTWARE ARE SET FORTH IN THE LICENSE AGREEMENTS
+OF THE THIRD PARTY SUPPLIER. THE DISCLAIMER OF WARRANTY AND LIMITATION
+OF LIABILITY PROVISIONS IN PARAGRAPHS 3 AND 4 OF THE LICENSE
+AGREEMENT SHALL APPLY TO ALL SOFTWARE IN THIS DISTRIBUTION.
+THIS SOFTWARE CONTAINS LIBRARIES DEVELOPED UNDER THE ECLIPSE
+COMMON PUBLIC LICENSE 1.0. THE FULL TEXT OF THIS LICENSE AND
+THE CORRESPONDING COPYRIGHT NOTICES CAN BE FOUND IN THE ECLIPSE
+DIRECTORY OF THE YOXOS INSTALLATION MANAGER (YIM).
+8.0 COPYRIGHT AND TRADEMARK NOTICES
+COPYRIGHT (c) 2004-2010 INNOOPRACT INFORMATIONSSYSTEME GMBH.
+ALL RIGHTS RESERVED.
+
+****
+Some Icons used are created by pinvoke.com - Thanks.
+See: http://pinvoke.com/license/
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.net"/>
+      <import plugin="org.eclipse.core.runtime" version="3.3.0" match="greaterOrEqual"/>
+      <import plugin="com.yoxos.model.persistence" version="5.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.commands"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.browser"/>
+      <import plugin="org.eclipse.ui.forms"/>
+      <import plugin="org.eclipse.ui.workbench"/>
+      <import plugin="org.eclipse.osgi.services"/>
+      <import plugin="org.eclipse.ui.net"/>
+      <import plugin="org.eclipse.ui.intro"/>
+      <import plugin="org.eclipse.help" version="3.4.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="com.yoxos.model" version="5.0.0" match="greaterOrEqual"/>
+      <import plugin="com.yoxos.provisioning.common" version="5.0.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.p2.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.director" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.engine" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.metadata" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.metadata.repository" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.frameworkadmin"/>
+      <import plugin="org.eclipse.equinox.p2.repository" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.update.core"/>
+      <import plugin="org.eclipse.equinox.p2.artifact.repository" version="1.0.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.publisher" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide.application"/>
+      <import plugin="org.eclipse.equinox.frameworkadmin.equinox"/>
+      <import plugin="org.eclipse.core.runtime" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.common"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="com.yoxos.client.common" version="5.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.5.1" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.equinox.p2.metadata" version="1.0.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.core" version="1.0.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ecf.filetransfer" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ecf.identity"/>
+      <import plugin="com.yoxos.jdom" version="4.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.ds"/>
+      <import plugin="org.eclipse.equinox.event"/>
+      <import plugin="org.eclipse.equinox.util"/>
+      <import plugin="org.eclipse.equinox.p2.ql"/>
+   </requires>
+
+   <plugin
+         id="com.yoxos.yim.core"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.ui.base"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.ui.rcp"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylyn"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylyn.bugzilla"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.preferences"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.team"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.jdom"
+         download-size="0"
+         install-size="0"
+         version="4.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"/>
+
+   <plugin
+         id="com.yoxos.yim.core.install.p2"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.launching"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.model"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.client.common"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.provisioning.common"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.model.persistence"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.lib"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.uilib"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.metadata"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="org.jcouchdb"
+         download-size="0"
+         install-size="0"
+         version="0.10.0.v20120623-0044"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="1.4.0.20100820-0001"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.lib.net"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.target"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.team.git"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.checkstyle.37"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylyn.jira"
+         download-size="0"
+         install-size="0"
+         version="4.2.2.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylynbuilds"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.mylynbuilds.hudson"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="com.yoxos.yim.provisioning.sonar"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20120623-0044"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="0"
+         install-size="0"
+         version="4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpcore"
+         download-size="0"
+         install-size="0"
+         version="4.1.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.v201101211721"
+         unpack="false"/>
+
+</feature>

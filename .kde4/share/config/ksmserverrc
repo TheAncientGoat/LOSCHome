@@ -1,0 +1,32 @@
+[$Version]
+update_info=ksmserver.upd:kde3
+
+[General]
+screenCount=1
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1014a10cddd7000134414977200000051460000
+clientId2=1014a10cddd7000134612053700000012110000
+clientId3=1014a10cddd7000134414979200000051460010
+count=3
+discardCommand1[$e]=rm,$HOME/.kde4/share/config/session/kwin_1014a10cddd7000134414977200000051460000_1346120720_130894
+discardCommand2[$e]=\\0
+discardCommand3[$e]=\\0
+program1=kwin
+program2=/usr/bin/kactivitymanagerd
+program3=/usr/bin/nepomukcontroller
+restartCommand1=kwin,-session,1014a10cddd7000134414977200000051460000_1346120720_130894
+restartCommand2=/usr/bin/kactivitymanagerd,-session,1014a10cddd7000134612053700000012110000_1346120720_72668
+restartCommand3=/usr/bin/nepomukcontroller,-session,1014a10cddd7000134414979200000051460010_1346120720_76264
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=LOSCMember
+userId2=LOSCMember
+userId3=LOSCMember
+wasWm1=true
+wasWm2=false
+wasWm3=false

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Innoopract
+Bundle-Version: 5.0.0.v20120623-0044
+Bundle-Name: Yoxos Install Manager
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.yoxos.yim
+
+

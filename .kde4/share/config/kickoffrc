@@ -1,0 +1,14 @@
+[Applications]
+FirstSeen=geany,-,blender,-,gimp,-,inkscape,-,firefox,-,flashplayer,-,qt4config,-,kde4-kate,-,kde4-kwrite,-,kde4-ark,-,kde4-nepomukbackup,-,kde4-nepomukcontroller,-,policytool-java-1.6.0-openjdk,-,kde4-kinfocenter,-,kde4-Help,-,kde4-knetattach,-,package-manager,-,kde4-krandrtray,-,kde4-klipper,-,kde4-kfind,-,kde4-dolphinsu,-,kde4-dolphin,-,kde4-ksysguard,-,kde4-konsolesu,-,xterm,-,kde4-konsole,-,YaST,-,kde4-systemsettings,-
+
+[Favorites]
+FavoriteURLs=/usr/share/applications/firefox.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/kde4/systemsettings.desktop,/usr/share/applications/kde4/Help.desktop,/usr/share/applications/kde4/konsole.desktop
+
+[KRunner]
+loadAll=false
+
+[KRunner][PlasmaRunnerManager]
+pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
+
+[RecentlyUsed]
+Applications=YaST.desktop

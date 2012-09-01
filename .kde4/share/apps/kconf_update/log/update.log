@@ -1,0 +1,124 @@
+2012-08-04T22:56:06 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin3_plugin.upd' for new updates
+2012-08-04T22:56:06 kwin3_plugin.upd: Found new update 'kde3.2'
+2012-08-04T22:56:06 kwin3_plugin.upd: Running script 'kwin3_plugin.pl'
+2012-08-04T22:56:06 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2012-08-04T22:56:06 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups1'
+2012-08-04T22:56:06 plasma_popupapplet_fix_groups.upd: File 'plasma-appletsrc' does not exist or empty, skipping
+2012-08-04T22:56:06 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups2'
+2012-08-04T22:56:06 plasma_popupapplet_fix_groups.upd: Running script 'plasma_popupapplet_fix_groups.pl'
+2012-08-04T22:56:06 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups3'
+2012-08-04T22:56:06 plasma_popupapplet_fix_groups.upd: Skipping update 'PlasmaPopupAppletFixGroups3'
+2012-08-04T22:56:06 plasma_popupapplet_fix_groups.upd: File 'plasmoidviewer-appletsrc' does not exist or empty, skipping
+2012-08-04T22:56:06 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_on_off.upd' for new updates
+2012-08-04T22:56:06 kwin_on_off.upd: Found new update 'kwin_on_off'
+2012-08-04T22:56:06 kwin_on_off.upd: Running script 'on-off_to_true-false.sh'
+2012-08-04T22:56:06 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver_shortcuts.upd' for new updates
+2012-08-04T22:56:06 ksmserver_shortcuts.upd: Found new update 'kde45'
+2012-08-04T22:56:06 ksmserver_shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2012-08-04T22:56:06 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2012-08-04T22:56:06 devicepreference.upd: Found new update 'DevicesMovedToPlatformPlugin'
+2012-08-04T22:56:06 devicepreference.upd: Running script 'phonon_devicepreference_update'
+2012-08-04T22:56:06 devicepreference.upd: Found new update 'DevicesUIDsChanged'
+2012-08-04T22:56:06 devicepreference.upd: Running script 'phonon_deviceuids_update'
+2012-08-04T22:56:06 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2012-08-04T22:56:06 kwin_update_tabbox_settings.upd: Found new update 'Kwin-4.4'
+2012-08-04T22:56:06 kwin_update_tabbox_settings.upd: Running script 'kwin_update_tabbox_settings'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2012-08-04T22:56:07 kded.upd: Found new update 'kde3.0'
+2012-08-04T22:56:07 kded.upd: Skipping update 'kde3.0'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2012-08-04T22:56:07 kwin_window_shortcuts.upd: Found new update 'kde414'
+2012-08-04T22:56:07 kwin_window_shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/ksmserver.upd' for new updates
+2012-08-04T22:56:07 ksmserver.upd: Found new update 'kde3'
+2012-08-04T22:56:07 ksmserver.upd: File 'ksmserverrc' does not exist or empty, skipping
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/krdb_libpathwipe.upd' for new updates
+2012-08-04T22:56:07 krdb_libpathwipe.upd: Found new update 'LibraryPathWipeOut'
+2012-08-04T22:56:07 krdb_libpathwipe.upd: Running script 'krdb_clearlibrarypath'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2012-08-04T22:56:07 kcookiescfg.upd: Found new update 'kde2.2/b1'
+2012-08-04T22:56:07 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2012-08-04T22:56:07 kcookiescfg.upd: Found new update 'kde3.1/cvs'
+2012-08-04T22:56:07 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus1.upd' for new updates
+2012-08-04T22:56:07 kwin_focus1.upd: Found new update 'kwin_focus1'
+2012-08-04T22:56:07 kwin_focus1.upd: Running script 'kwin_focus1.sh'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2012-08-04T22:56:07 kuriikwsfilter.upd: Found new update 'post-kde3.1/cvs'
+2012-08-04T22:56:07 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2012-08-04T22:56:07 mouse_cursor_theme.upd: Found new update 'kde3.4.99'
+2012-08-04T22:56:07 mouse_cursor_theme.upd: Skipping update 'kde3.4.99'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2012-08-04T22:56:07 plasma-to-plasmadesktop-shortcuts.upd: Found new update '4.3plasma-desktop-shortcuts'
+2012-08-04T22:56:07 plasma-to-plasmadesktop-shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin.upd' for new updates
+2012-08-04T22:56:07 kwin.upd: Found new update 'kde3.0r1'
+2012-08-04T22:56:07 kwin.upd: Running script 'pluginlibFix.pl'
+2012-08-04T22:56:07 kwin.upd: Found new update 'kde3.2Xinerama'
+2012-08-04T22:56:07 kwin.upd: Skipping update 'kde3.2Xinerama'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2012-08-04T22:56:07 kcmdisplayrc.upd: Found new update 'kde3'
+2012-08-04T22:56:07 kcmdisplayrc.upd: Skipping kcmdisplayrc:X11:exportKDEColors, already exists.
+2012-08-04T22:56:07 kcmdisplayrc.upd: Skipping kcmdisplayrc:X11:exportKDEFonts, already exists.
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2012-08-04T22:56:07 kwinupdatewindowsettings.upd: Found new update 'kde33b1'
+2012-08-04T22:56:07 kwinupdatewindowsettings.upd: Running script 'kwin_update_window_settings'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwiniconify.upd' for new updates
+2012-08-04T22:56:07 kwiniconify.upd: Found new update 'iconifyupd3.1'
+2012-08-04T22:56:07 kwiniconify.upd: File 'kwin.eventsrc' does not exist or empty, skipping
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2012-08-04T22:56:07 plasmarc-to-plasmadesktoprc.upd: Found new update '4.3plasma-desktop'
+2012-08-04T22:56:07 plasmarc-to-plasmadesktoprc.upd: Running script 'plasma-to-plasma-desktop'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwinsticky.upd' for new updates
+2012-08-04T22:56:07 kwinsticky.upd: Found new update 'stickyupd3.1'
+2012-08-04T22:56:07 kwinsticky.upd: File 'kwin.eventsrc' does not exist or empty, skipping
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd' for new updates
+2012-08-04T22:56:07 kwin_remove_effects.upd: Found new update 'kwin4.7_effects'
+2012-08-04T22:56:07 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2012-08-04T22:56:07 kwin_fsp_workarounds_1.upd: Found new update 'kde351'
+2012-08-04T22:56:07 kwin_fsp_workarounds_1.upd: Running script 'kwin_update_default_rules' with arguments 'fsp_workarounds_1.kwinrules'
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2012-08-04T22:56:08 kio_help.upd: Found new update 'kde3_2'
+2012-08-04T22:56:08 kio_help.upd: Running script 'move_kio_help_cache.sh'
+2012-08-04T22:56:08 [Script] mv: cannot stat `/home/LOSCMember/.kde4/share/apps/kio_help/cache': No such file or directory
+2012-08-04T22:56:08 [Script] rmdir: failed to remove `/home/LOSCMember/.kde4/share/apps/kio_help': No such file or directory
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_focus2.upd' for new updates
+2012-08-04T22:56:08 kwin_focus2.upd: Found new update 'kwin_focus2'
+2012-08-04T22:56:08 kwin_focus2.upd: Running script 'kwin_focus2.sh'
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2012-08-04T22:56:08 ksslcertificatemanager.upd: Found new update 'kde4.2'
+2012-08-04T22:56:08 ksslcertificatemanager.upd: Running script 'ksslcertificatemanager.upd.sh'
+2012-08-04T22:56:08 [Script] rm: cannot remove `/home/LOSCMember/.kde4//share/config/ksslcertificatemanager': No such file or directory
+2012-08-04T22:56:08 ksslcertificatemanager.upd: !! An error occurred while running 'sh /usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd.sh'
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2012-08-04T22:56:08 kioslave.upd: Found new update 'kde2.2/r1'
+2012-08-04T22:56:08 kioslave.upd: Updating kio_httprc:<default>:MaxCacheSize to ''
+2012-08-04T22:56:08 kioslave.upd: Removing kioslaverc:Cache Settings:MaxCacheSize, moved.
+2012-08-04T22:56:08 kioslave.upd: Updating kio_httprc:<default>:MaxCacheAge to ''
+2012-08-04T22:56:08 kioslave.upd: Removing kioslaverc:Cache Settings:MaxCacheAge, moved.
+2012-08-04T22:56:08 kioslave.upd: Updating kio_httprc:<default>:UseCache to ''
+2012-08-04T22:56:08 kioslave.upd: Removing kioslaverc:Cache Settings:UseCache, moved.
+2012-08-04T22:56:08 kioslave.upd: Skipping update 'kde2.2/r1'
+2012-08-04T22:56:08 kioslave.upd: Found new update 'kde2.2/r2'
+2012-08-04T22:56:08 kioslave.upd: Running script 'useragent.pl'
+2012-08-04T22:56:08 kioslave.upd: Script removes kioslaverc:UserAgent:EntriesCount
+2012-08-04T22:56:08 kioslave.upd: Found new update 'kde2.2/r3'
+2012-08-04T22:56:08 kioslave.upd: Running script 'proxytype.pl'
+2012-08-04T22:56:08 kioslave.upd: Script removes kioslaverc:Proxy Settings:UseProxy
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/kate-2.4.upd' for new updates
+2012-08-04T22:56:08 kate-2.4.upd: Found new update 'kate2.4'
+2012-08-04T22:56:08 kate-2.4.upd: Updating katerc:Filelist:Sort Type to ''
+2012-08-04T22:56:08 kate-2.4.upd: Removing katerc:General:Sort Type of File List, moved.
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2012-08-04T22:56:08 klipper-kconfigxt.upd: Found new update 'KlipperNoSpacesInKeyNames'
+2012-08-04T22:56:08 klipper-kconfigxt.upd: File 'klipperrc' does not exist or empty, skipping
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2012-08-04T22:56:08 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2012-08-04T22:56:08 plasma-add-shortcut-to-menu.upd:2:'Script=plasma-add-shortcut-to-menu-update': Script 'plasma-add-shortcut-to-menu-update' not found
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/favicons.upd' for new updates
+2012-08-04T22:56:08 favicons.upd: Found new update 'kde3_2'
+2012-08-04T22:56:08 favicons.upd: Running script 'move_favicons.sh'
+2012-08-04T22:56:08 Checking update-file '/usr/share/kde4/apps/kconf_update/kaccel.upd' for new updates
+2012-08-04T22:56:08 kaccel.upd: Found new update 'kde3.3/r1'
+2012-08-04T22:56:08 kaccel.upd: Skipping update 'kde3.3/r1'

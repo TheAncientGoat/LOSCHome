@@ -1,0 +1,16 @@
+[Containments][10]
+ActionPluginsSource=Global
+activity=Desktop Icons
+activityId=009fd7d2-04f5-459e-9349-bc03c4e7396c
+desktop=-1
+formfactor=0
+geometry=839,0,600,400
+immutability=1
+lastDesktop=-1
+lastScreen=-1
+location=0
+plugin=folderview
+screen=-1
+wallpaperplugin=image
+wallpaperpluginmode=SingleImage
+zvalue=0

@@ -1,0 +1,16 @@
+[$Version]
+update_info=mouse_cursor_theme.upd:kde3.4.99,kaccel.upd:kde3.3/r1,kwin.upd:kde3.2Xinerama,kded.upd:kde3.0
+
+[DirSelect Dialog]
+DirSelectDialog Size=533,400
+History Items[$e]=file://$HOME,file://$HOME/Documents,file://$HOME/Blender,file://$HOME/yoxos_launcher,file://$HOME/Love2D
+
+[DirWatch]
+NFSPollInterval=
+PollInterval=
+
+[Windows]
+XineramaEnabled=
+XineramaMaximizeEnabled=
+XineramaMovementEnabled=
+XineramaPlacementEnabled=

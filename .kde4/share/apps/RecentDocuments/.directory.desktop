@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=.directory
+Type=Link
+URL[$e]=file://$HOME/.directory
+X-KDE-LastOpenedWith=

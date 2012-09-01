@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2004-2009 by Innoopract Informationssysteme GmbH. 
+     All rights reserved. -->
+<contexts>
+  <context id="UPDATE_SELECTION_DIALOG"
+           title="Update Yoxos Dialog">
+    <description>This dialog is part of the Yoxos Install Manager (YIM). It informs you about available updates for YIM or the distribution content. It appears because you have either searched for updates directly, or you have specified in the Preferences that YIM should look for online content. In the later case, this dialog is shown only if there are actually updates available.</description>
+  </context>
+  <context id="MEDIUM_INITIALIZER_DIALOG"
+           title="No Install Medium">
+    <description>This dialog is part of the Yoxos Install Manager (YIM). It appears because the YIM has detected that an external medium (e.g. a DVD) is selected but there is no valid path specified to that medium. This is normal if you are running a fresh installation from a DVD or other external medium. However, it is recommended that you browse to the path of that medium now. You can choose an install medium at any later time from the View menu of the Plug-In Explorer in the Yoxos Perspective.</description>
+  </context>
+  <context id="UPDATE_REMINDER_DIALOG"
+           title="Update Reminder Dialog">
+    <description>This dialog is part of the Yoxos Install Manager (YIM). It appears because the YIM has detected that you have not checked for updates for a long time.</description>
+  </context>
+</contexts>

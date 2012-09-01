@@ -1,0 +1,39 @@
+[$Version]
+update_info=plasma_popupapplet_fix_groups.upd:PlasmaPopupAppletFixGroups2
+
+[ActivityManager HiddenTemplates]
+plasma-layout-org.kde.plasma-desktop.SaL.desktop=true
+plasma-layout-org.kde.plasma-desktop.desktopIcons.desktop=true
+plasma-layout-org.kde.plasma-desktop.photoActivity.desktop=true
+
+[BackgroundConfigDialog]
+Height 600=546
+Width 800=653
+
+[Colors]
+CurrentPalette=Forty Colors
+
+[KFileDialog Settings]
+Height 600=480
+Recent Files[$e]=love,/usr/bin/love
+Width 800=720
+
+[KPropertiesDialog]
+Height 600=375
+Width 800=367
+
+[Notification Messages]
+ConfirmTrash=true
+
+[PlasmaViews][1]
+panelVisibility=0
+
+[PlasmaViews][1][Sizes]
+lastsize=800
+
+[Updates]
+performed=/usr/share/kde4/apps/plasma-desktop/updates/opensuse-update-firefox-icon-url.js,/usr/share/kde4/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js,/usr/share/kde4/apps/plasma-desktop/updates/systray-to-notifications-widget.js
+
+[ViewIds]
+1=1
+18=2

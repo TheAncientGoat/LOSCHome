@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=.mozilla
+Type=Link
+URL[$e]=file://$HOME/.mozilla
+X-KDE-LastOpenedWith=

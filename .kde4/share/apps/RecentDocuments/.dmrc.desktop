@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=.dmrc
+Type=Link
+URL[$e]=file://$HOME/.dmrc
+X-KDE-LastOpenedWith=

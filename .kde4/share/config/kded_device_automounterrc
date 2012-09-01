@@ -1,0 +1,5 @@
+[Devices][/org/freedesktop/UDisks/devices/sda1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=16.0 GiB Hard Drive
+LastSeenMounted=true

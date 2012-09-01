@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=folder
+Name=.Xauthority
+Type=Link
+URL[$e]=file://$HOME/.Xauthority
+X-KDE-LastOpenedWith=

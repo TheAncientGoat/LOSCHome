@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="command" mtime="1344149757" type="string">
+		<stringvalue>/usr/bin/firefox &quot;%s&quot;</stringvalue>
+	</entry>
+</gconf>

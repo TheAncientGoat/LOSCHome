@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=.gconf
+Type=Link
+URL[$e]=file://$HOME/.gconf
+X-KDE-LastOpenedWith=

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-Name: Pydev Red Core
+Bundle-ClassPath: red-core.jar
+Bundle-Activator: org.python.pydev.red_core.PydevRedCoreActivator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.python.pydev.red_core;singleton:=true
+Export-Package: org.python.pydev.red_core
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.python.pyd
+ ev;bundle-version="2.6.0.2012062818",org.eclipse.jface.text,com.aptan
+ a.editor.common;resolution:=optional,org.eclipse.ui.workbench.textedi
+ tor,org.python.pydev.core,org.eclipse.ui.editors,org.eclipse.ui.navig
+ ator,org.eclipse.ui.views,com.aptana.theme;resolution:=optional,org.p
+ ython.pydev.debug,com.python.pydev
+Bundle-Version: 2.6.0.2012062818
+Eclipse-LazyStart: true
+
+Name: LICENSE.txt
+SHA1-Digest: p+9tB+uCL9D+iYG9D8zDHITgqgU=
+
+Name: plugin.xml
+SHA1-Digest: PC/ixLUG7UNetWX7q6oC2tRNRa4=
+
+Name: red-core.jar
+SHA1-Digest: KKoqg6or6lscR/w8Q92HbitKE2k=
+

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=.bash_history
+Type=Link
+URL[$e]=file://$HOME/.bash_history
+X-KDE-LastOpenedWith=

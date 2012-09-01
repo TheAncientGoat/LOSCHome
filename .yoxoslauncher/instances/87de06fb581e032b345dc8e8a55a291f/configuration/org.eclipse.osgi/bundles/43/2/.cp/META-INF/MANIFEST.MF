@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: com.yoxos.yim.ui.rcp,com.yoxos.yim.ui.rcp.dialogs,com.
+ yoxos.yim.ui.rcp.internal;x-friends:="com.yoxos.yim.ui.test",com.yoxo
+ s.yim.ui.rcp.internal.actions;x-friends:="com.yoxos.yim.ui.test",com.
+ yoxos.yim.ui.rcp.internal.application;x-friends:="com.yoxos.yim.ui.la
+ uncher",com.yoxos.yim.ui.rcp.internal.initializers;x-friends:="com.yo
+ xos.yim.ui.test",com.yoxos.yim.ui.rcp.internal.notify,com.yoxos.yim.u
+ i.rcp.internal.preferences,com.yoxos.yim.ui.rcp.internal.services;x-f
+ riends:="com.yoxos.launcher",com.yoxos.yim.ui.rcp.internal.views.welc
+ ome,com.yoxos.yim.ui.rcp.splash,com.yoxos.yim.ui.rcp.util
+Require-Bundle: com.yoxos.lib.net,com.yoxos.yim.provisioning;bundle-ve
+ rsion="5.0.0",org.eclipse.osgi.services,org.eclipse.ui
+Bundle-Vendor: %plugin_provider
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 5.0.0.v20120623-0044
+Bundle-Localization: plugin
+Bundle-Name: %plugin_name
+Bundle-Activator: com.yoxos.yim.ui.rcp.UIRcpPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.yoxos.yim.ui.rcp;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

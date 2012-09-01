@@ -1,0 +1,344 @@
+Change log for the Yoxos Install Manager (YIM)
+==============================================
+
+Service release 080910 for 3.4.1
+- Some tweaks for search
+- Profiles: New Profiles will only contain the explicitly selected features.
+            The dependencies will be added automatically later.
+- Bugfixes for Update Detection and Installation Inspector
+
+Changes between 3.4.0 and 3.4.1
+- New Search UI integrated into the Plug-Ins Explorer
+- Improved "Yoxos Notifications"
+- Popularity for Eclipse Plug-Ins
+- Some sanity tweaks and fixes.
+
+Service release 080711 for 3.4.0
+- Bugfixes for proxy users
+- Better error handling in offline mode
+- Some sanity tweaks and fixes.
+
+Changes between 3.3.5 and 3.4.0
+- Introducing the new Yoxos notification dialog.
+  No more dialogs rising on eclipse startup.
+- Support for easy migration from Europa to Ganymede (3.3 -> 3.4)
+- UI and usability improvements.
+- New internal mechanism to retrieve configurations for enterprise wide use.
+- YIM is now ready for Ganymede (Eclipse 3.4).
+- Several smaller bugfixes.
+
+Changes between 3.3.4 and 3.3.5
+- Export Workspace Wizard for Yoxos Provisioning
+  Eclipse Menu -> Help -> Workspace Provisioning with Yoxos
+- Direct Access URL for features and profiles.
+  Use this URL to share your favorite features and profiles with others.
+  The URL will open Yoxos OnDemand with the feature or profile already
+  preselected and ready to download.
+- Search for plugin ids in Search View
+- Improved Plugin Explorer filter
+- License View for features added
+- improved detection of changed provisioning in profiles
+
+Changes between 3.3.3 and 3.3.4
+
+Workspace Provisioning:
+- Profiles are now more then just "grouped features".
+  Now it is possible to add a checkstyle or mylyn configuration,
+  a team projectset or Eclipse preferences to a profile.
+- Your eclipse installation will then be fully preconfigured 
+  on startup.
+- To manually open the workspace provisioning dialog, click:
+  Eclipse Menu -> Help -> Yoxos Workspace Provisioning
+- Make sure you have the "Yoxos Workspace Provisioning" feature
+  installed and/or added to your profile.
+
+
+Changes between 3.3.0 and 3.3.3
+
+General:
+- IMPORTANT: The email & password authentication has been replaced by a 
+  license key. You can get a license key free of charge by clicking on 
+  "Get License Key" in the Profiles View 
+
+Profiles View:
+- Saved Profiles are now stored online, so that you can access them from
+  any Eclipse Installation (after log-in into your account)
+- Saved Profiles can be made "publicly visible" and shared with other 
+  Yoxos users.
+- The Profiles View shows your profiles and all public profiles. 
+- With the Customize Profiles action you can save additional information
+  with a profile (Team Project Set, Mylyn Metadata). 
+- Saved features that are not part of the distribution will be shown
+  with a question mark next to them.
+- The Scenario View has been replaced by the Profiles View.
+
+Plug-In Explorer:
+- The Plug-In Explorer has a search-as-you-type filter
+- The version of the content you are using is shown in the Plug-In Explorer. 
+  Yoxos will automatically use the latest content. Alternatively, you can 
+  configure Yoxos to stick with a certain version of the content - just click 
+  on the "change" link in the Plug-In Explorer.
+- The content of the Plug-In Explorer is sorted alphabetically.
+- Public profiles also also shown in the Plug-in Explorer.
+- The Medium Explorer has been replaced by the Plug-In Explorer.
+
+Schedule View:
+- Will show which profiles have been added.
+
+- Skipped versions 3.3.1 and 3.3.2 ;-)
+
+
+Changes between 2.3.0 and 3.3.0
+
+- The "Features" node in the Inspector view now expands faster.
+- Search will only begin for terms that are at least three characters long. 
+- Distribution content is now cached locally. This should improve the time 
+  to open the YIM perspective on slow network connections.
+- Drag-and-drop support from the Profiles View into the Schedule
+- Authentication: It is possible to use either a license key or a 
+  user name / password pair to authenticate.
+- Fixed: Clear Schedule after an error occurs during installation.
+- Fixed: Users are asked for dependencies more than once.
+- Fixed: Clean Installation action was not disabled after cleaning.
+- Scenarios have been renamed into Profiles.
+- A number of UI tweaks and simplifications.
+- Changed version to 3.3.0 to reflect that this is the YIM for Eclipse 3.3.x.
+
+
+Changes between 2.2.8 and 2.3.0
+
+- Eclipse 3.3 ready.
+- YIM now uses the Eclipse 3.3 proxy setting (General > Network Connections).
+- Fixed: high cpu load after installing many features.
+- Fixed: wrong error message when using incorrect proxy host.
+
+Note: this version is no longer compatible with Eclipse 3.2.
+
+
+Changes between 2.2.7 and 2.2.8
+
+- Missing subscription data can now be entered during the installation process. 
+- Added a "Get Eclipse 3.3" action. This action provides a custom archive with
+  Eclipse 3.3 and your features (as long as they are part of the Yoxos 
+  distribution). It will be enabled in June.
+- Added an "Update All" action to the "update indicator" context menu.
+  This action will automatically update all features for which updates are
+  available.
+- Made the Schedule View > Start Installation the main way for adding features 
+  to an installation. 
+- Removed the following actions: Clone This Installation and Select Target 
+  Installation from the Inspector; Install Wizard from the main toolbar;
+  Install To New Location from the scenario pop-up menu.
+- Improved the accuracy of the "Source code and developer resources" 
+  autoselector. The Eclipse SDK is recognized as a primary feature.
+- Prevent exiting Eclipse while an installation is still ongoing.
+- Prevent discolored splash screen on Mac and Linux.
+
+
+Changes between 2.2.6 and 2.2.7
+
+- The version 2.2.7 is a bugfix release and contains various smaller fixes and
+  UI improvements.
+
+
+Changes between 2.2.5 and 2.2.6
+
+- Disabled versions of features can now be removed by using the "Clean-up 
+  Installation" action in the Inspector View.
+- The memory consumption of YIM was reduced by a significant amount.
+- Selecting a single feature and using the "Show in Medium  Explorer" action 
+  (in the context menu) will reveal the current selection in the Medium 
+  Explorer. 
+- The Information View now shows the additional information for many features: 
+  The content formerly available through the "Brief Me" action is now shown 
+  in the Description element.
+- It is possible to select all entries in the Schedule- and Search-Views
+  by pressing Ctrl+A. 
+- Fixed a bug where the "Show Updatable Features" action would enable an 
+  unwanted combination of filters in the Medium Explorer.
+- Fixed a bug where the "Add to Schedule" action was shown for Features
+  than cannot be installed (Inspector View).
+- Fixed a bug regarding the labels in the Schedule View when switching between
+  the "Show Feature Name" and "Show Feature Id" settings.
+- Fixed a bug when activating and cancelling the "Switch to Milestone Stream" 
+  action.
+- Fixed a bug in the dependency selection algorithm (uncommon case). 
+- The contents of the Medium Explorer are loaded asynchronously.
+- Several minor user interface improvements.
+    
+
+Changes between 2.2.4 and 2.2.5
+
+- The handling of YIM updates and updates to the Yoxos Feature Descriptions has 
+  been re-worked:
+    * Notifications about new updates are no longer in a modal dialog that
+      blocks user interaction, but are displayed in a 'speech bubble'.
+      Clicking the speech bubble opens the Update Dialog.
+    * If an update to the YIM is available, the Update Dialog shows now
+      the changelog in advance to the installation.
+    * When a Feature Description update is available, the table of added, 
+      removed and updated features is displayed. It has now a number of filters
+      for selectively hiding added, removed, updated and secondary features.
+    * You can now choose to have Feature Description updates installed
+      automatically when they are available. The Yoxos Network Settings
+      Preference Page has a setting for this.
+- You can now directly check your user name, password and subscription
+  status on the Preference Page where you enter your data.
+- SDK features are now also automatically selected as source features.
+- Fixed a bug that spoiled the colors of the splash screen on Linux.
+- Fixed a bug that ignored Feature Description updates when no initial Feature
+  Descriptions were installed (uncommon case).
+- Fixed a bug in the startup code that caused some error messages
+  (uncommon case).
+- Fixed a bug in the Inspector View that could occur when running on Java 1.6.
+
+
+Changes between 2.2.3 and 2.2.4
+
+- After finishing an installation, it is now possible to choose when Eclipse 
+  is restarted.
+- Added an automatic update-reminder that is shown if the update attempt was
+  more than two months ago. 
+- It is possible to clear all "Do not show again" settings and show all hidden
+  dialogs again (under Window > Preferences > Yoxos > General).
+- Commercial features will be decorated with a $-icon in all YIM Views.
+- The confirmation dialog for feature requirements will now show the names of
+  of the required features.
+- Inspector View:
+  * added an "Add To Schedule" action to the context menu
+  * it is possible to copy the path of an installation from the 
+    Inspector View into the clipboard via the context menu
+  * preferences are sorted alphabetically in the "Preference Customization"
+    action (accessible from the Inspector View)
+- Search View:
+    * drag-and-drop support from the Search View into the Schedule
+    * The "Show in Medium Explorer" will also work with filtered-out features
+- The Schedule View will now show the download size when first opened.
+- Several minor user interface improvements.
+
+
+Changes between 2.2.2 and 2.2.3
+
+- The internal mechanics for accessing distribution content have been improved,
+  especially the case where the distribution content is located offline on a
+  DVD has been significantly sped up.
+- The status line contains an "update indicator" that uses different icons
+  to signal that features in the current Eclipse installation can be updated.
+  Clicking on the indicator will list all updatable features in the
+  Medium Explorer.
+
+
+Changes between 2.2.1 and 2.2.2
+
+- In the Schedule View, features that have been explicitely selected for
+  installation (as opposed to features that have been automatically added
+  as dependency) are now shown in bold font.
+- Features, feature groups and scenarios can be added by Drag-and-Drop to
+  the Schedule; they can be dragged from the Medium Explorer, the Scenarios
+  View and the Inspector View.
+- In the Info View, there is now a toolbar button that opens a web browser
+  on the homepage of the project which provides that feature (if applicable).
+- On the Inspector View's view menu there is a new item for creating a
+  preference customization out of the settings in the current Eclipse
+  installation. It can be used to generate key-value pairs suitable to
+  insert into a preference customization for an Eclipse-based product.
+
+
+Changes between 2.2.0 and 2.2.1
+
+- The YIM offers now the possibility to switch to the 'Milestone stream' of
+  Yoxos releases.
+
+  Updates of the Yoxos distribution content are available in two different
+  streams: the 'Release Stream' and the 'Milestone Stream'. The latter
+  contains the Stable Builds (also known as 'Milestones') from the Eclipse
+  project plus other software in development or early-access versions.
+
+  Starting with this version of the YIM, the Install Manager can be pointed
+  to the Milestone Stream. The software from the Milestone Stream is then
+  available for installation and update.
+
+  Please note that this step cannot be reversed! Any later updates to the Yoxos
+  distribution content will always be taken from the Milestone Stream, until
+  the next Release from the Eclipse project, which happens once a year,
+  usually in late June. At the time of that release, the Yoxos Release Stream
+  and the Yoxos Milestone Stream converge and it will be possible again to
+  choose between the two streams.
+
+  Note further that this step is taken per Eclipse installation. It is
+  possible to maintain different Eclipse installations (including the YIM)
+  where each of them may or may not be switched to the Milestone Stream.
+
+  There is a menu item on the Medium Explorer' view menu for switching to
+  the Milestone Stream.
+
+- Keyboard shortcuts and context menus have been added for deleting a user-
+  defined scenario in the Scenarios View and deleting entries in the Search
+  View.
+- The Search View has a new filter that allows to hide secondary features
+  (e.g. source features and language pack features). The filter can be switched
+  on and off from the toolbar on the Search View.
+- Features can be sorted alphabetically in the Scenarios View.
+- Several bugfixes in dependency handling and the installation routines.
+
+
+Changes between 2.1.4 and 2.2.0
+
+- The Yoxos Install Manager requires now Eclipse 3.2 or higher.
+- There is a new View in the YIM Perspective: the Inspector.
+
+  The Inspector View shows the features that are currently installed in the
+  Eclipse installation. It distinguishes between features that are known in
+  the Yoxos distribution and features that are not known, and displays different
+  icons in each case. For features known in the distribution, the Inspector
+  indicates whether the currently installed version can be updated to a newer
+  version of the same feature.
+
+  On the Inspector, a different Eclipse installation than the one that is
+  currently running can be selected. This installation can be inspected, and
+  it is possible to install features into that installation.
+
+  The Inspector can be filtered so that it shows only features that can be
+  updated.
+
+- Installation cloning: from the Inspector View, it is possible to create
+  a new Eclipse installation that contains exactly the features that are
+  installed in the current Eclipse installation (in their latest versions
+  from the Yoxos distribution).
+- The Medium Explorer has a new filter that allows to hide secondary features
+  (e.g. source features and language pack features). These features are still
+  automatically selected if the Autoselector checkboxes are checked, but they
+  are no longer shown in the tree on the Medium Explorer. The filter can be
+  switched off on the Medium Explorer's toolbar.
+- The Medium Explorer can distinguish between "already installed" and
+  "updatable" features and use different icons in those cases.
+- The YIM now contributes several items to the Eclipse Intro.
+- There is now a new Cheatsheet that explains the most important UI elements
+  in the YIM Perspective.
+- There is a new wizard for importing scenarios. The new wizard allows a
+  more fine-grained selection from the contents of the imported scenario file.
+- Introduced a new Autoselector for automatically adding NLS2a language pack
+  features.
+- If a group is selected in the Medium Explorer, the context menu (right-click)
+  contains now an item 'Expand this', which fully expands the selected subtree,
+  starting at the selected folder.
+- YIM does now detect when it is running in an Eclipse that is in development
+  mode ('Runtime workbench'). In this mode, the YIM performs no update checks
+  and no Update dialog is opened.
+- Fixed a problem that resulted in a miscalculation of the download size for
+  features selected in the Medium Explorer.
+- Several smaller bugfixes.
+
+
+Changes between 2.1.3 and 2.1.4
+
+- Additional toolbar items for the Medium Explorer (e.g. 'Expand all',
+  'Show features that are not yet installed').
+- Better responsiveness in the Search View.
+- Several bugfixes.
+
+
+Changes between 2.1.2 and 2.1.3
+
+- Fixed a major performance problem that appeard with JVM 1.4.x during
+  dependency determination and search.
